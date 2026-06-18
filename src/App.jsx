@@ -225,8 +225,8 @@ const Nav = ({cartCount,onCartOpen}) => {
       </ul>
       <div style={{display:"flex",alignItems:"center",gap:20}}>
         <div style={{display:"flex",gap:18}}>
-          {["Instagram","TikTok","WhatsApp"].map(s=>(
-            <a key={s} href="#" style={{fontFamily:"'DM Mono',monospace",fontSize:9,letterSpacing:"0.14em",textTransform:"uppercase",color:T.ash,textDecoration:"none"}}
+          {[,"TikTok","WhatsApp"].map(s=>(
+            <a key={s} href="https://wa.me/2348133822668" style={{fontFamily:"'DM Mono',monospace",fontSize:9,letterSpacing:"0.14em",textTransform:"uppercase",color:T.ash,textDecoration:"none"}}
               onMouseEnter={e=>e.target.style.color=T.gold} onMouseLeave={e=>e.target.style.color=T.ash}>{s}</a>
           ))}
         </div>
@@ -446,8 +446,8 @@ const Footer = () => {
           <div style={{fontFamily:"'DM Mono',monospace",fontSize:9,letterSpacing:"0.22em",textTransform:"uppercase",color:T.gold,marginBottom:20}}>Luxury Fashion House</div>
           <p style={{fontFamily:"'Cormorant Garamond',serif",fontSize:15,fontWeight:300,color:T.ash,lineHeight:1.85,maxWidth:260}}>Creating bespoke pieces and curated collections for individuals who embrace originality.</p>
           <div style={{display:"flex",gap:16,marginTop:28}}>
-            {["IG","TK","WA"].map(s=>(
-              <a key={s} href="#" style={{fontFamily:"'DM Mono',monospace",fontSize:9,letterSpacing:"0.18em",color:T.ash,textDecoration:"none",padding:"6px 12px",border:"1px solid rgba(138,133,120,.2)",transition:"all .3s"}}
+            {[,"TK",].map(s=>(
+              <a key={s} href="https://vm.tiktok.com/ZS9jxp6sLvERA-3QvlX/" style={{fontFamily:"'DM Mono',monospace",fontSize:9,letterSpacing:"0.18em",color:T.ash,textDecoration:"none",padding:"6px 12px",border:"1px solid rgba(138,133,120,.2)",transition:"all .3s"}}
                 onMouseEnter={e=>{e.currentTarget.style.color=T.gold;e.currentTarget.style.borderColor="rgba(184,151,90,.2)";}}
                 onMouseLeave={e=>{e.currentTarget.style.color=T.ash;e.currentTarget.style.borderColor="rgba(138,133,120,.2)";}}>{s}</a>
             ))}
